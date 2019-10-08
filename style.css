@@ -1,0 +1,165 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+}
+img:visited {
+  border: none;
+  outline: none;
+}
+
+.container {
+  /*display: flex;
+  flex-direction: row;
+  justify-content: center;*/
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  height: 100%;
+  background-image: url("./img/bg_02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#b-button {
+  justify-content: center;
+  border-radius: 80%;
+  height: 200px;
+  width: 200px;
+  margin-top: 100px;
+  font-family: "Squanda One";
+  text-shadow: #723199 5px 0 12px;
+  font-size: 40px;
+  background: url(./img/chip.png) center;
+  cursor: pointer;
+}
+
+#heading1 {
+  display: none;
+  text-align: center;
+  text-shadow: #723199 2px 0 10px;
+  font-family: "Squanda One";
+  font-size: 55px;
+  height: 80px;
+  order: 1;
+  width: 200px;
+  margin-left: 850px;
+}
+
+.game {
+  display: none;
+  text-align: center;
+  border: solid 1px #ddd;
+  margin: auto;
+  background: black;
+  border-radius:  20px;
+  width: 550px;
+  height: auto;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+
+.game-body{
+text-align: center;
+}
+
+.btn {
+  border: solid, #fff;
+  border-radius: 40px;
+  background: #723199;
+  color:#ddd;
+  text-shadow: black 1px 0 3px;
+  padding: 15px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 65px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #270110;
+  color: #fff;
+}
+
+.game .card{
+  width: 40px;
+  height: 70px;
+  padding: 10px;
+  border: solid 1px rgb(139, 136, 136);
+  border-radius: 10px;
+  text-align: center;
+  margin: 2px;
+  background-color: #fff;
+}
+
+.status{
+    display: none;
+    background: #723199;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+    
+    
+   
+  }
+
+  .players {
+      display: none;
+      font-weight: bold;
+      width: 480px;
+      margin: auto;
+      text-align: center;
+      margin-top: 20px;
+
+  }
+  .deck {
+    display: none;
+    float: right;
+    background: #723199;
+    color: #fff;
+    text-shadow: black 1px 0 3px;
+    padding: 10px;
+    border-radius: 10px;
+    border: double 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+    
+  }
+
+  .player {
+    width: 100px;
+    border: solid 5px rgb(122, 122, 122);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    background: rgb(73, 75, 75);
+    margin-left: 7s0px;
+  }
+  .player.active {
+    width: 100px;
+    border: solid 5px #723199;
+    background: #ddd;
+    margin-right: 15px;
+  }
+
+ .points {
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+   margin: 10px;
+   color: #723199;
+   text-shadow: black 1px 0 3px;
+ }
